@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KatangaTrace | Observatoire Tech & Traçabilité Minière en RDC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">KATANGA<span>Trace</span></a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#contexte">Provinces & Enjeux</a></li>
+                    <li><a href="#article">Observatoire Tech</a></li>
+                    <li><a href="#acteurs">Acteurs Clés</a></li>
+                    <li><a href="#glossaire">Glossaire</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <span class="badge">Haut-Katanga & Lualaba • RDC</span>
+            <h1>La technologie au service de la traçabilité du cuivre et du cobalt</h1>
+            <p>Décryptage des outils numériques — Blockchain, IA, Satellites et IoT — qui redessinent la chaîne d'approvisionnement des minerais critiques de la transition énergétique.</p>
+            <div class="hero-buttons">
+                <a href="#article" class="btn btn-primary">Lire le dossier complet</a>
+                <a href="#glossaire" class="btn btn-secondary">Explorer le glossaire</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contexte" class="stats-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Pourquoi le Haut-Katanga et le Lualaba ?</h2>
+                <p>Le poumon mondial de l'électrification face aux exigences des marchés internationaux.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>+70 %</h3>
+                    <p>De la production mondiale de cobalt provient de la RDC, principalement du Lualaba et du Haut-Katanga.</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Top 2</h3>
+                    <p>Producteur mondial de cuivre, un métal indispensable aux réseaux électriques et aux énergies renouvelables.</p>
+                </div>
+                <div class="stat-card">
+                    <h3>100 %</h3>
+                    <p>De traçabilité exigée d'ici 2027 par le passeport batterie européen pour accéder aux marchés occidentaux.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="article" class="tech-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Observatoire Tech : Les piliers de la traçabilité</h2>
+                <p>Comment les innovations numériques sécurisent le minerai de la mine jusqu'à la batterie.</p>
+            </div>
+            <div class="tech-grid">
+                <article class="tech-card">
+                    <span class="tech-tag">Registre Immuable</span>
+                    <h3>Blockchain & Passeport Numérique</h3>
+                    <p>Création d'un jumeau numérique pour chaque lot de minerai (scellés QR/RFID). Chaque transaction — extraction, lavage, exportation — est horodatée et infalsifiable.</p>
+                </article>
+                <article class="tech-card">
+                    <span class="tech-tag">Observation Spatiale</span>
+                    <h3>Imagerie Satellite & Télédétection</h3>
+                    <p>Surveillance en temps réel des concessions minières par satellites haute résolution pour détecter l'exploitation illégale, la déforestation ou les glissements de terrain.</p>
+                </article>
+                <article class="tech-card">
+                    <span class="tech-tag">Capteurs Connectés</span>
+                    <h3>IoT & Géolocalisation</h3>
+                    <p>Balises GPS sur les camions de transport le long des corridors (Kolwezi – Lubumbashi – ports) et pesage automatisé pour éviter tout détournement ou mélange de lots.</p>
+                </article>
+                <article class="tech-card">
+                    <span class="tech-tag">Analyse Prédictive</span>
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Croisement des données douanières, géologiques et environnementales pour repérer les anomalies dans les volumes déclarés et certifier la conformité ESG.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="acteurs" class="actors-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Acteurs Clés de l'Écosystème</h2>
+                <p>Institutions publiques, consortiums technologiques et initiatives de certification.</p>
+            </div>
+            <div class="actors-list">
+                <div class="actor-item">
+                    <h4>CEEC & SAEMAPE (RDC)</h4>
+                    <p>Organismes étatiques chargés de l'expertise, de l'évaluation, de la certification des substances minérales et de l'encadrement de l'exploitation artisanale.</p>
+                </div>
+                <div class="actor-item">
+                    <h4>Global Battery Alliance (GBA)</h4>
+                    <p>Consortium international pilotant le « Passeport Batterie » pour garantir une chaîne de valeur durable et transparente du cobalt.</p>
+                </div>
+                <div class="actor-item">
+                    <h4>RCS Global / Better Mining</h4>
+                    <p>Déploiement de systèmes de surveillance numérique continue sur les sites miniers artisanaux (ASM) du Katanga pour suivre les critères ESG.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="glossaire" class="glossary-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Glossaire Technique & Minier</h2>
+                <p>Les notions essentielles pour comprendre la chaîne d'approvisionnement.</p>
+            </div>
+            <div class="glossary-search">
+                <input type="text" id="glossaryFilter" placeholder="Filtrer un terme (ex: ASM, ESG, OCDE)...">
+            </div>
+            <dl class="glossary-grid" id="glossaryGrid">
+                <div class="glossary-item">
+                    <dt>Chaîne de traçabilité (Chain of Custody)</dt>
+                    <dd>Processus documenté permettant de suivre le parcours physique et administratif d'un minerai depuis son point d'extraction jusqu'au produit fini.</dd>
+                </div>
+                <div class="glossary-item">
+                    <dt>ASM (Artisanal and Small-Scale Mining)</dt>
+                    <dd>Exploitation minière artisanale et à petite échelle, représentant une part importante de l'extraction de cobalt dans le Lualaba et le Haut-Katanga.</dd>
+                </div>
+                <div class="glossary-item">
+                    <dt>Devoir de diligence (OCDE)</dt>
+                    <dd>Ensemble de règles internationales obligeant les entreprises à vérifier que leurs approvisionnements ne financent pas de conflits ni de violations des droits humains.</dd>
+                </div>
+                <div class="glossary-item">
+                    <dt>Critères ESG</dt>
+                    <dd>Indicateurs Environnementaux, Sociaux et de Gouvernance utilisés pour évaluer la durabilité et l'éthique d'une exploitation minière.</dd>
+                </div>
+            </dl>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Questions Fréquentes (FAQ)</h2>
+            </div>
+            <div class="faq-container">
+                <details class="faq-item">
+                    <summary>Pourquoi la traçabilité est-elle cruciale pour le cobalt congolais ?</summary>
+                    <p>Les constructeurs automobiles et fabricants de batteries doivent prouver l'origine éthique de leurs matières premières pour respecter les lois internationales (comme le règlement européen sur les batteries) et rassurer les consommateurs.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>La blockchain empêche-t-elle toute fraude ?</summary>
+                    <p>La blockchain garantit que les données enregistrées ne peuvent plus être modifiées, mais elle dépend de la fiabilité des capteurs (IoT, scellés physiques, audits humains) au moment où l'information est saisie sur le terrain.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Comment les mineurs artisanaux sont-ils intégrés à ces outils ?</summary>
+                    <p>Des programmes d'enregistrement biométrique, des coopératives formalisées et des applications mobiles permettent d'associer chaque sac de minerai à une zone d'extraction vérifiée et sécurisée.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">Katanga<span>Trace</span></a>
+                <p>Observatoire indépendant sur la transformation numérique du secteur minier dans le Grand Katanga (RDC).</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Katanga Trace - Jules BARUANI. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
